@@ -49,7 +49,8 @@ py2-monero-wallet-generator runs a modified version of
 to the MoneroPy is to swap out the `sha3` function with
 [python-sha3](https://github.com/moshekaplan/python-sha3), a pure-Python SHA3
 implementation written by [Moshe Kaplan](https://github.com/moshekaplan).
-I did this so that I would not have to cross-compile anything for the Raspberry Pi.
+I did this because the alternative would be to cross-compile the Monero source
+code for the Raspberry Pi.
 
 The difference between this version of Moneropy and the original is as such:
 
