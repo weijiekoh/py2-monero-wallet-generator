@@ -9,8 +9,9 @@ I created this for use within
 [malvarma](https://github.com/weijiekoh/malvarma), a secure cold wallet
 generator for the truly paranoid.
 
-If you use this script to generate an address on an insecure or non-airgapped
-computer, do not send any moneroj to it.
+This script can only generate a cold wallet if it is run in a secure
+environment. If you use this script to generate an address on an insecure or
+non-airgapped computer, treat it as a cold wallet at your own risk.
 
 ## Usage
 
