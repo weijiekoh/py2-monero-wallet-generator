@@ -3,7 +3,8 @@
 This script generates a new Monero wallet and displays the address, memonic
 seed, private view key, and private spend key.
 
-It is a pure Python 2 script and is meant for the Raspberry Pi, but can work on any machine that runs Python 2.
+It is a pure Python 2 script and is meant for the Raspberry Pi, but can work on
+any machine that runs Python 2.
 
 I created this for use within
 [malvarma](https://github.com/weijiekoh/malvarma), a secure cold wallet
@@ -65,3 +66,17 @@ The difference between this version of Moneropy and the original is as such:
 >     k = sha3.keccak_256()
 ```
 
+## Legalese
+
+MoneroPy is licensed under the BSD-3-Clause license and its copyright notice is as follows:
+
+```
+BSD 3-Clause License
+
+Copyright (c) 2016 The MoneroPy Developers.
+All rights reserved.
+```
+
+py2-monero-wallet-generator is licensed under the MIT License, but this license
+only applies to the code in `gen_wallet.py`, and not the code from python-sha3
+or MoneroPy.
