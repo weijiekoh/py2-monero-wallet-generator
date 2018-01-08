@@ -54,11 +54,11 @@ I did this so that I would not have to cross-compile anything for the Raspberry 
 The difference between this version of Moneropy and the original is as such:
 
 ```diff
-moneropy/cryptonote.py
+13c13
 < import python_sha3
 ---
 > import sha3
-py2-monero-wallet-generator/moneropy/cryptonote.py
+27c27
 <     k = python_sha3.sha3_256()
 ---
 >     k = sha3.keccak_256()
