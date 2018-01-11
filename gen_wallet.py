@@ -4,11 +4,9 @@ from moneropy import account
 
 seed, sk, vk, addr = account.gen_new_wallet()
 
-print "Public Monero address:"
-print addr
-print
-print("DO NOT SHARE THE INFORMATION BELOW OR YOU WILL LOSE YOUR FUNDS:")
-print
+print "Copy the address, memonic seed & private keys exactly as shown. Store them safely."
+print "Public Monero address:", addr
+print("NOTE: DO NOT SHARE THE INFO BELOW OR YOU WILL LOSE YOUR FUNDS:")
 print "Private memonic seed:"
 i = 1
 for word in seed:
@@ -18,9 +16,5 @@ for word in seed:
     i += 1
 
 print
-print
-print "Private spend key"
-print sk
-print
-print "Private view key"
-print vk
+print "Private spend key:", sk
+print "Private view key:", vk
