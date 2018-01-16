@@ -53,7 +53,7 @@ implementation written by [Moshe Kaplan](https://github.com/moshekaplan).
 I did this because the alternative would be to cross-compile the Monero source
 code for the Raspberry Pi.
 
-The difference between this version of Moneropy and the original is as such:
+The difference between this version of MoneroPy and the original is as such:
 
 ```diff
 13c13
